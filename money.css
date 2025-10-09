@@ -1,0 +1,25 @@
+/* Mengatur tampilan agar responsif di mobile */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gambar background penuh layar */
+body {
+  background-image: url('background.png'); /* ubah nama sesuai file kamu */
+  background-size: cover;      /* menyesuaikan gambar dengan layar */
+  background-position: center; /* posisikan di tengah */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* (Opsional) overlay semi-transparan di atas gambar */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* ubah opacity sesuai selera */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
